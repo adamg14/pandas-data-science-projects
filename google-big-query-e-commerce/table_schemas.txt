@@ -1,0 +1,126 @@
+TABLE Fiscal_Quarter:
+Year
+INTEGER
+
+Fiscal_Quarter
+STRING
+
+Month
+INTEGER
+
+Day
+INTEGER	
+Month_transformed
+
+Day_transformed
+INTEGER
+
+Date_String
+DATE
+
+
+
+TABLE Reseller_Gifts:
+OrderDate
+DATE
+
+ResellerID
+INTEGER
+
+ProductID
+INTEGER
+
+Quantity
+INTEGER
+
+TotalProfit
+FLOAT
+
+
+
+TABLE Reseller_Details:
+ResellerKey
+INTEGER
+
+Prefix
+STRING
+
+FirstName
+STRING
+
+LastName
+STRING
+
+Sub_Region
+STRING
+
+Postal_Code
+STRING
+
+Building_Number
+INTEGER
+
+Reseller
+STRING
+
+Region
+STRING
+
+
+TABLE Order_Details:
+OrderDateKey
+DATE
+
+Order_ID
+FLOAT
+
+ResellerKey
+INTEGER
+
+ProductKey
+INTEGER
+
+Quantity
+INTEGER
+
+
+
+Product_Details:
+Field name
+Type
+Mode
+Key
+Collation
+Default Value
+Policy Tags 
+Description
+ProductKey
+INTEGER	NULLABLE	-	-	-	
+-
+-
+ProductSKU
+STRING	NULLABLE	-	-	-	
+-
+-
+ProductName
+STRING	NULLABLE	-	-	-	
+-
+-
+ModelName
+STRING	NULLABLE	-	-	-	
+-
+-
+ProductCost
+FLOAT	NULLABLE	-	-	-	
+-
+-
+ProductPrice
+FLOAT	NULLABLE	-	-	-	
+-
+-
+Profit
+FLOAT	NULLABLE
+
+
+
+Resellers_Ranks:
