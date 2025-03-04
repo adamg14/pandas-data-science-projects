@@ -1,0 +1,11 @@
+Transaction Schema
+
+date DATE
+user_cookie_id STRING
+user_crm_id STRING
+session_id STRING
+transaction_id STRING
+transaction_coupon STRING
+transaction_revenue FLOAT
+transaction_shipping FLOAT
+transaction_total FLOAT
